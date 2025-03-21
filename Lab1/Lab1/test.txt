@@ -1,0 +1,17 @@
+{
+  "$type": "<>f__AnonymousType0`2[[System.Char, System.Private.CoreLib],[System.Collections.Generic.List`1[[Lab1.Shape, Lab1]], System.Private.CoreLib]], Lab1",
+  "BackgroundColor": " ",
+  "Shapes": {
+    "$type": "System.Collections.Generic.List`1[[Lab1.Shape, Lab1]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Lab1.Rectangle, Lab1",
+        "Width": 10,
+        "Height": 10,
+        "X": 10,
+        "Y": 10,
+        "Color": "#"
+      }
+    ]
+  }
+}
