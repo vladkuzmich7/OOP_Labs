@@ -6,11 +6,18 @@
     "$values": [
       {
         "$type": "Lab1.Rectangle, Lab1",
-        "Width": 10,
-        "Height": 10,
+        "Width": 5,
+        "Height": 5,
         "X": 10,
         "Y": 10,
-        "Color": "#"
+        "Color": "%"
+      },
+      {
+        "$type": "Lab1.Triangle, Lab1",
+        "Height": 10,
+        "X": 12,
+        "Y": 12,
+        "Color": ":"
       }
     ]
   }

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOPsl.DocumentFunctions.Document" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAoAgAAAAIAAAAAAAAAAIAAAABAAAAAAABAAAA=</HashCode>
+      <FileName>DocumentFunctions\Document.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CommandManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Storage.GoogleDriveStorage" BaseTypeListCollapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAgIACAAAkAAAAAAAAAAAAAAkAAAAAAEAAAEACAAA=</HashCode>
+      <FileName>DocumentFunctions\Storage\GoogleDriveStorage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Storage.LocalFileStorage" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAgIAAAAAoAAAAAAAAAAAAAIEAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DocumentFunctions\Storage\LocalFileStorage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Managers.DocumentAccessManager">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="OOPsl.DocumentFunctions.Managers.DocumentAccessManager.TempAce" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DocumentFunctions\Managers\DocumentAccessManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAQAQAAAAAAAAAQQAAgAAAAAAQABAAACAAg=</HashCode>
+      <FileName>DocumentFunctions\Managers\DocumentAccessManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Managers.DocumentManager">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggRAAQgAAAYEAAAgAAAAAQAAAIAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Managers\DocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.JsonDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIJAQAAAAAAQAAAAAAACgAAAEAAAAAhAA=</HashCode>
+      <FileName>DocumentFunctions\Displays\JsonDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.MarkdownDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="3" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAACAAAAQAAAIAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>DocumentFunctions\Displays\MarkdownDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.PlainTextDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Displays\PlainTextDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.RawDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Displays\RawDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.RichTextDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAAAAAARBAAQICAIAAAABAAAQAAAAAEAA=</HashCode>
+      <FileName>DocumentFunctions\Displays\RichTextDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displays.XmlDisplayStrategy" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAhABAAAAQBAAQICACAAAABAAAAAAAAAAAo=</HashCode>
+      <FileName>DocumentFunctions\Displays\XmlDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displayers.TextEditor">
+    <Position X="1.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEEEAgAEAACABAAQAJAAQAIABICAAAAQAI=</HashCode>
+      <FileName>DocumentFunctions\Displayers\TextEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displayers.DocumentViewer">
+    <Position X="3.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Displayers\DocumentViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Displayers.DisplayStrategyFactory">
+    <Position X="3.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Displayers\DisplayStrategyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Converters.XmlToJsonConverter" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Converters\XmlToJsonConverter.cs</FileName>
+      <NewMemberFileName>DocumentFunctions\Converters\JsonToXmlConverter.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Converters.MarkdownToRtfConverter" BaseTypeListCollapsed="true">
+    <Position X="10" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Converters\MarkdownToRtfConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Converters.RtfToMarkdownConverter" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAIAAAAAAAAAAAAgAAAAAAEAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Converters\RtfToMarkdownConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Commands.CommandManager">
+    <Position X="13" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAAAABAAAAAAAAAghAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Commands\CommandManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Commands.DeleteCommand" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAABAIA=</HashCode>
+      <FileName>DocumentFunctions\Commands\DeleteCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOPsl.DocumentFunctions.Commands.InsertCommand" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAABAIA=</HashCode>
+      <FileName>DocumentFunctions\Commands\InsertCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.MenuFunctions.UserActionsMenu">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <AssociationLine Name="currentUser" Type="OOPsl.UserFunctions.User">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.427" Y="1.422" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="editor" Type="OOPsl.DocumentFunctions.Displayers.TextEditor" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="4.688" />
+        <Point X="2" Y="4.688" />
+        <Point X="2" Y="8" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAgACAAAABAAACAABAAAQQBAQAAAEAAABEAgAAAAAA=</HashCode>
+      <FileName>MenuFunctions\UserActionsMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentUser" />
+      <Field Name="documentManager" />
+      <Field Name="accessManager" />
+      <Field Name="userManager" />
+      <Field Name="editor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOPsl.MenuFunctions.ApplicationMenu">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>MenuFunctions\ApplicationMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOPsl.UserFunctions.RegularUser">
+    <Position X="7" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserFunctions\RegularUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.UserFunctions.User">
+    <Position X="7" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAgAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserFunctions\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPsl.UserFunctions.UserManager">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAEAAAAAAAgAAAAAAAAAAAABAAAAAAAiAAIAAAAAAAA=</HashCode>
+      <FileName>UserFunctions\UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPsl.MenuFunctions.ConsoleMenu" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAQAAAAAAAAAAEQQAAgAAAAAAABABAAAAAAA=</HashCode>
+      <FileName>MenuFunctions\ConsoleMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OOPsl.DocumentFunctions.ISubject">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\ISubject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOPsl.DocumentFunctions.Storage.IStorageStrategy">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgIAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DocumentFunctions\Storage\IStorageStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOPsl.DocumentFunctions.Displays.IDisplayStrategy">
+    <Position X="3.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Displays\IDisplayStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOPsl.DocumentFunctions.Converters.IFormatConverter">
+    <Position X="9" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Converters\IFormatConverter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOPsl.DocumentFunctions.Commands.ICommand">
+    <Position X="13.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentFunctions\Commands\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMenu">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEQAAAgAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MenuFunctions\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOPsl.UserFunctions.IObserver">
+    <Position X="9.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserFunctions\IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

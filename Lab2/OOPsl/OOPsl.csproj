@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>CS8618;CS8600;CS8602;CS8603;CS8604;CS8629;CS8601;CS0168</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Files\History\**" />
+    <EmbeddedResource Remove="Files\History\**" />
+    <None Remove="Files\History\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\LocalFiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.69.0.3703" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
