@@ -377,7 +377,7 @@ namespace OOPsl.MenuFunctions
                         if (key.KeyChar == '1')
                             storageStrategy = new LocalFileStorage();
                         else if (key.KeyChar == '2')
-                            storageStrategy = new LocalFileStorage1();
+                            storageStrategy = new GoogleDriveStorage();
                         else
                         {
                             Console.WriteLine("Неверный выбор. Сохранение отменено.");
@@ -553,7 +553,7 @@ namespace OOPsl.MenuFunctions
             else if (sourceChoice == "2")
             {
                 docs = documentManager.GetCloudDocuments();
-                storageStrategy = new LocalFileStorage1();
+                storageStrategy = new GoogleDriveStorage();
             }
             else
             {
@@ -615,7 +615,7 @@ namespace OOPsl.MenuFunctions
             }
             else if (sourceChoice == "2")
             {
-                storageStrategy = new LocalFileStorage1();
+                storageStrategy = new GoogleDriveStorage();
                 docs = documentManager.GetCloudDocuments();
             }
             else

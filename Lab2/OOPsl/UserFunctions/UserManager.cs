@@ -8,7 +8,7 @@ namespace OOPsl.UserFunctions
         private List<User> users = new List<User>();
         private readonly string usersFile;
 
-        private const string DefaultUsersFile = @"D:\OOP\LR2\OOPsl\OOPsl\Files\users.json";
+        private const string DefaultUsersFile = @"C:\oop\users.json";
 
         public UserManager() : this(DefaultUsersFile) { }
 

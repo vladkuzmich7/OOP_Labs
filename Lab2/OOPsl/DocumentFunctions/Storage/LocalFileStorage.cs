@@ -5,8 +5,8 @@ namespace OOPsl.DocumentFunctions.Storage
 {
     public class LocalFileStorage : IStorageStrategy
     {
-        private readonly string documentsFolder = @"C:\oop";
-        private readonly string historyFolder = @"C:\oop";
+        private readonly string documentsFolder = @"C:\oop\documents";
+        private readonly string historyFolder = @"C:\oop\history";
 
         public LocalFileStorage()
         {

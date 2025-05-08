@@ -11,14 +11,6 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="OOPsl.DocumentFunctions.Storage.GoogleDriveStorage" BaseTypeListCollapsed="true">
-    <Position X="12" Y="7.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQIAgIACAAAkAAAAAAAAAAAAAAkAAAAAAEAAAEACAAA=</HashCode>
-      <FileName>DocumentFunctions\Storage\GoogleDriveStorage.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="OOPsl.DocumentFunctions.Storage.LocalFileStorage" BaseTypeListCollapsed="true">
     <Position X="13.75" Y="7.75" Width="1.5" />
     <TypeIdentifier>
@@ -44,7 +36,7 @@
   <Class Name="OOPsl.DocumentFunctions.Managers.DocumentManager">
     <Position X="9.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AggRAAQgAAAYEAAAgAAAAAQAAAIAAAAAAAAAAIAAAAA=</HashCode>
+      <HashCode>AggBAAQgAAAYEAAAgAAAAAQAAAIAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>DocumentFunctions\Managers\DocumentManager.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -152,7 +144,7 @@
   <Class Name="OOPsl.DocumentFunctions.Commands.DeleteCommand" BaseTypeListCollapsed="true">
     <Position X="14.5" Y="18" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAABAIA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DocumentFunctions\Commands\DeleteCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -226,7 +218,7 @@
   <Class Name="OOPsl.MenuFunctions.ConsoleMenu" Collapsed="true">
     <Position X="8.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAQAAAAAAAAAAEQQAAgAAAAAAABABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEQAAAgAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>MenuFunctions\ConsoleMenu.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

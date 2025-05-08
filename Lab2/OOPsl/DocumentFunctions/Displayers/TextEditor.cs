@@ -40,7 +40,7 @@ namespace OOPsl.DocumentFunctions.Displayers
             }
             else
             {
-                IStorageStrategy cloudStorage = new LocalFileStorage1();
+                IStorageStrategy cloudStorage = new GoogleDriveStorage();
                 Document cloudDoc = cloudStorage.Load(Path.GetFileName(document.FileName));
                 text = cloudDoc != null ? cloudDoc.Content : "";
             }
