@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DocMaster.Utilities.AppStyleSettings">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAACAAAAAAAQBAAAAAAAAA=</HashCode>
+      <FileName>Utilities\AppStyleSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DocMaster.UI.App">
+    <Position X="1.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>igABBAAAQAA4AA0AAEIAgBAAEAAAAAQhBAAUADAACoI=</HashCode>
+      <FileName>UI\App.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
